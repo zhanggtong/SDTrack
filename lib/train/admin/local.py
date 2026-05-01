@@ -1,0 +1,27 @@
+class EnvironmentSettings:
+    def __init__(self):
+        self.workspace_dir = '/home/zhanggt/SDTrack'    # Base directory for saving network checkpoints.
+        self.tensorboard_dir = '/home/zhanggt/SDTrack//tensorboard'    # Directory for tensorboard files.
+        self.pretrained_networks = '/home/zhanggt/SDTrack//pretrained_networks'
+        self.lasot_dir = '/home/muyh/tracking_datasets/lasot/'
+        self.tnl2k_dir = '/home/muyh/tracking_datasets/TNL2k/'
+        self.otb_lang_dir = '/home/muyh/tracking_datasets/OTB_sentences/'
+        self.ref_coco_dir = '/home/muyh/tracking_datasets/refcoco/'
+        self.got10k_dir = '/home/guokj/dataset/GOT-10K/train_data/'
+        self.got10k_val_dir = '/home/muyh/tracking_datasets/GOT-10k/val/'
+        self.lasot_lmdb_dir = '/home/data/lasot_lmdb'
+        self.got10k_lmdb_dir = '/home/data/got10k_lmdb'
+        self.trackingnet_dir = '/home/muyh/tracking_datasets/TrackingNet'
+        self.trackingnet_lmdb_dir = '/home/data/trackingnet_lmdb'
+        self.coco_dir = '/home/data/coco'
+        self.coco_lmdb_dir = '/home/data/coco_lmdb'
+        self.lvis_dir = ''
+        self.sbd_dir = ''
+        self.imagenet_dir = '/home/data/vid'
+        self.imagenet_lmdb_dir = '/home/data/vid_lmdb'
+        self.imagenetdet_dir = ''
+        self.ecssd_dir = ''
+        self.hkuis_dir = ''
+        self.msra10k_dir = ''
+        self.davis_dir = ''
+        self.youtubevos_dir = ''
